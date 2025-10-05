@@ -2,7 +2,7 @@
 #define RUNNING  1
 #define WAITING  2
 #define DONE  3
-j
+
 static char stateChars[] = {'r','R','w','\0'};
 
 /* 1) handle state changes:
