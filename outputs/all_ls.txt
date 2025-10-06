@@ -1,0 +1,4 @@
+-rw-r--r-- 1 gjh148 students 44344515 Oct  5 21:46 fcfs.all
+-rw-r--r-- 1 gjh148 students 42243042 Oct  5 21:46 psjf.all
+-rw-r--r-- 1 gjh148 students 44688763 Oct  5 21:46 rr.all
+-rw-r--r-- 1 gjh148 students 43243799 Oct  5 21:46 sjf.all

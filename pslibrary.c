@@ -16,7 +16,7 @@ static inline char state_char(int state){
 }	
 
 typedef struct{
-	int cpu, io, cpu2;
+	int cpu1, io, cpu2;
 	int stage;
 	int state;
 }P;
@@ -76,7 +76,7 @@ static void finish_io_done(P* p){
 static void assign_fcfs(P *a, P *b){
 
 	if(a->state != RUNNING && b->state != RUNNING){
-		if(a->state == READY && a->stage ! = 3){
+		if(a->state == READY && a->stage != 3){
 			a->state = RUNNING;
 		}else if(b->state == READY && b->stage !=3){
 				b->state = RUNNING;

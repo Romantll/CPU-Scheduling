@@ -1,0 +1,20 @@
+===== Comprehensive Files (ls -l) =====
+-rw-r--r-- 1 gjh148 students 44344515 Oct  5 21:46 fcfs.all
+-rw-r--r-- 1 gjh148 students 42243042 Oct  5 21:46 psjf.all
+-rw-r--r-- 1 gjh148 students 44688763 Oct  5 21:46 rr.all
+-rw-r--r-- 1 gjh148 students 43243799 Oct  5 21:46 sjf.all
+
+===== Line/Word Counts (wc) =====
+  2000001   2000003  44344515 fcfs.all
+  2000001   2000003  42243042 psjf.all
+  2000001   2000003  44688763 rr.all
+  2000001   2000003  43243799 sjf.all
+  8000004   8000012 174520119 total
+
+===== MD5 Sums (md5sum) =====
+1b294e7b748f2d382a1e0c304845168b  fcfs.all
+f8f7bc7ab30aae414aad750c6812baca  psjf.all
+87353cb459bfeb36252636ac80d7f5da  rr.all
+1857624b92947b3831ae5646612cb82f  sjf.all
+
+Paste the assign2 outputs for required specific tests above into your REPORT.txt as needed.

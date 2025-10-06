@@ -56,22 +56,22 @@ int main(int argc, char **argv){
     static char s2[2000005];
 
     //FCFS
-    s1[0] = s2[0] = '\\0';
+    s1[0] = s2[0] = '\0';
     fcfs(s1, s2, x1, y1, z1, x2, y2, z2);
     print_block("FCFS", s1, s2);
 
     // SJF
-    s1[0] = s2[0] = '\\0';
+    s1[0] = s2[0] = '\0';
     sjf(s1, s2, x1, y1, z1, x2, y2, z2);
     print_block("SJF", s1, s2);
 
     // PSJF
-    s1[0] = s2[0] = '\\0';
+    s1[0] = s2[0] = '\0';
     psjf(s1, s2, x1, y1, z1, x2, y2, z2);
     print_block("PSJF", s1, s2);
 
     // RR
-    s1[0] = s2[0] = '\\0';
+    s1[0] = s2[0] = '\0';
     rr(s1, s2, q, x1, y1, z1, x2, y2, z2);
     print_block("RR", s1, s2);
 

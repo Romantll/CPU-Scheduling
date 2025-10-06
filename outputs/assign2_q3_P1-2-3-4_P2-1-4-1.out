@@ -1,0 +1,28 @@
+------------------------------------------------------------
+Test #8: ./assign2 3 2 3 4 1 4 1
+CS 3733 / Assignment 2 / Roman Rendon / gjh148
+3 2 3 4 1 4 1
+
+Scheduler FCFS:
+
+RRwwwRRRR
+rrRwwwwrrR
+0 4 2.0 0.80000
+
+Scheduler SJF:
+
+rRRwwwRRRR
+RwwwwR
+1 0 0.5 0.80000
+
+Scheduler PSJF:
+
+rRRwwwRRRR
+RwwwwR
+1 0 0.5 0.80000
+
+Scheduler RR:
+
+RRwwwRRRR
+rrRwwwwrrR
+0 4 2.0 0.80000
